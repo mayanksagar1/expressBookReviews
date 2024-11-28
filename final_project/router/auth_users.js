@@ -13,7 +13,7 @@ const isValid = (username) => { //returns boolean
   if (userswithsamename.length > 0) {
     return false;
   } else {
-    return false;
+    return true;
   }
 };
 
